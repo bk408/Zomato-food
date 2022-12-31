@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Zomato</title>
+
+    <style>
+        body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+nav h1 {
+    font-size: 40px;
+    color: rgba(250, 10, 10, 0.801);
+    border-bottom: 5px solid rgba(250, 10, 10, 0.801);
+    border-radius: 40px;
+    font-family: 'Courgette', cursive;
+    margin-top: 3px;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    margin-inline: 30px;
+
+}
+
+ul li a:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+.btn button {
+    width: 100px;
+    height: 35px;
+    border: 3px solid rgba(250, 10, 10, 0.801);
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.main-div .head {
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.head button {
+    width: 180px;
+    height: 47px;
+    background-color: rgba(250, 10, 10, 0.801);
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+.head button:hover {
+    background-color: black;
+    border: 3px solid rgba(250, 10, 10, 0.801);
+    cursor: pointer;
+}
+
+.img img {
+    margin-right: 30px;
+    width: 870px;
+    opacity: 1;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Zomato</h1>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Order</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+        <div class="btn">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+
+    </nav>
+
+    <div class="main-div">
+        <div class="head">
+            <h1>Stay fit<br>Eat healthy</h1>
+            <button>Order Now</button>
+        </div>
+        <div class="img">
+            <img src="fmbg.jpg" alt="food">
+        </div>
+    </div>
+</body>
+
+</html>
